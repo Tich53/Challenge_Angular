@@ -8,6 +8,9 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { BlockComponentsComponent } from './block-components/block-components.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { FormsModule } from '@angular/forms';
+import { MenuComponent } from './menu/menu.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+
 
 
 @NgModule({
@@ -16,7 +19,9 @@ import { FormsModule } from '@angular/forms';
     ValidationButtonComponent,
     HeroesComponent,
     BlockComponentsComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    MenuComponent,
+    SignUpComponent,
   ],
   imports: [
     BrowserModule,
