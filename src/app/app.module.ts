@@ -7,9 +7,13 @@ import { ValidationButtonComponent } from './validation-button/validation-button
 import { HeroesComponent } from './heroes/heroes.component';
 import { BlockComponentsComponent } from './block-components/block-components.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MenuComponent } from './menu/menu.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
+import { SearchMovieComponent } from './search-movie/search-movie.component';
+import { DeveloperComponentComponent } from './developer-component/developer-component.component';
+import { SkillComponentComponent } from './skill-component/skill-component.component';
+
 
 
 
@@ -22,11 +26,15 @@ import { SignUpComponent } from './sign-up/sign-up.component';
     UserProfileComponent,
     MenuComponent,
     SignUpComponent,
+    SearchMovieComponent,
+    DeveloperComponentComponent,
+    SkillComponentComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

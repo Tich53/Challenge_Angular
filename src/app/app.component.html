@@ -1,8 +1,7 @@
-
-<app-block-components></app-block-components> 
-<app-block-components class ="topRight"></app-block-components>
-<app-block-components class ="bottomLeft"></app-block-components>
-<app-block-components class ="bottomRight"></app-block-components>
+<app-block-components></app-block-components>
+<app-block-components class="topRight"></app-block-components>
+<app-block-components class="bottomLeft"></app-block-components>
+<app-block-components class="bottomRight"></app-block-components>
 
 <span>Bienvenue sur le site de {{ title }}</span>
 
@@ -12,8 +11,8 @@
 <app-validation-button></app-validation-button>
 
 <ul>
-    <li [ngStyle] = "{backgroundColor : isThisIngredientVital ? 'red' : 'yellow'}">Pommes de terre</li>
-    <li [ngClass] = "{'vital' : isThisIngredientVital}">Raclette</li>
+    <li [ngStyle]="{backgroundColor : isThisIngredientVital ? 'red' : 'yellow'}">Pommes de terre</li>
+    <li [ngClass]="{'vital' : isThisIngredientVital}">Raclette</li>
     <li>Jambon</li>
     <li>Cornichons</li>
 </ul>
@@ -28,5 +27,9 @@
 </ul>
 
 <app-sign-up></app-sign-up>
+
+
+
+<app-developer-component></app-developer-component>
 
 <router-outlet></router-outlet>
