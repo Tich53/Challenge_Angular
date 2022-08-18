@@ -32,4 +32,14 @@
 
 <app-developer-component></app-developer-component>
 
+
+<app-create-onomatopia-component (sendOnomatopiaToParent)="onReceiveNewOnomatopia($event)">
+</app-create-onomatopia-component>
+<ul>
+    <li *ngFor="let onomatopoeia of onomatopoeias">
+        {{ onomatopoeia }}
+    </li>
+</ul>
+
+
 <router-outlet></router-outlet>
